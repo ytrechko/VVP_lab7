@@ -1,7 +1,15 @@
 ﻿#include <iostream>
+#include "JsonService.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	try {
+		JsonService js;
+		Weather w = js.getWeather("weather.json");
+		int i;
+	}
+	catch (exception& e) {
+		cout << e.what();
+	}
 }
 

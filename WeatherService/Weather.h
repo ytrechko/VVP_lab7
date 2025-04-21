@@ -26,11 +26,12 @@ public:
 		weather(weather),
 		windSpeed(windSpeed),
 		clouds(clouds){}
-	Weather() :city("Киров"),
-		lon(49.6601), lat(58.5966),
-		temperature(5.69),
-		weather("дождь"),
-		windSpeed(4.27),
-		clouds(100) {}
+	Weather() {}
+	//:city("Киров"),
+	//	lon(49.6601), lat(58.5966),
+	//	temperature(5.69),
+	//	weather("дождь"),
+	//	windSpeed(4.27),
+	//	clouds(100) {}
 };
 
