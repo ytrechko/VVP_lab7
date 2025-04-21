@@ -1,7 +1,16 @@
 ﻿#include <iostream>
+#include "XmlService.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    try {
+        XmlService xs;
+        Weather w = xs.getWeather("weather.xml");
+        int u;
+    }
+    catch (exception& e) {
+        cout << e.what();
+    }
+
 }
 
